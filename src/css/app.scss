@@ -1,0 +1,47 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+
+body{
+  background-image: url('../../public/img/fondos1.png'); /* Cambia 'tu-imagen-de-fondo.jpg' por el nombre de tu imagen */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 112vh;
+  display: flex;
+  flex-direction: column;
+}
+
+
+@media (min-width: 780px) and (max-width: 1729px) {
+body{
+    background-image: url('../../public/img/fondos1.png'); /* Cambia 'tu-imagen-de-fondo.jpg' por el nombre de tu imagen */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 120vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    }
+      
+    }
+    
+
+
+
+@media (max-width: 967px){
+
+   
+ body{
+        background-image: url('../../public/img/fodos2.png'); /* Cambia 'tu-imagen-de-fondo.jpg' por el nombre de tu imagen */
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 107vh;
+        display: flex;
+        flex-direction: column;
+      
+      }
+ }
